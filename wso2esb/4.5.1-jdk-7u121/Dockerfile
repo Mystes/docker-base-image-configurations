@@ -1,4 +1,4 @@
-FROM anapsix/alpine-java:7_jdk
+FROM java:7u121-jdk-alpine
 
 ENV JAVA_VERSION=jdk-7 \
     WSO2_ESB_VERSION=4.5.1 \
