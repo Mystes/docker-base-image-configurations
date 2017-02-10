@@ -28,7 +28,7 @@ RUN \
     unzip wso2esb-$WSO2_ESB_VERSION.zip -d /opt && \
     rm -f wso2esb-$WSO2_ESB_VERSION.zip
 
-COPY ../docker-entrypoint.sh /
+COPY ./docker-entrypoint.sh /
 
 RUN \
     chmod +x /docker-entrypoint.sh && \
